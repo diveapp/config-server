@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/diveapp/config-repository.git
+          username: lijixiao_job@126.com
+          password: a9192long!!!
+          default-lable: master
+          search-paths: config
